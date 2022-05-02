@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form Css</title>
+	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="assets/logo.svg" />
+    </header>
+    <aside id="aside">
+      <img id="image_aside" src="assets/side-image.jpg" />
+    </aside>
+    <main>
+      <section id="form">
+        <div class="container">
+          <div class="headForm">
+            <div class="head">
+              <img class="imageLogin" src="assets/log-in.svg" />
+              <h3>Faça seu login</h3>
+            </div>
+            <p>Entre com suas informações de cadastros.</p>
+          </div>
+          <!-- method GET uma maneira de enviar dados  de maneira visivel -->
+          <!-- method Post recebidos porém fica escondidos -->
+          <div class="formEmail">
+            <label for="email">E-mail</label>
+            <input id="email"
+              type="email"
+              autocomplete="email"
+              placeholder="Digite seu e-mail"
+              form="formEmailInput"
+            />
+          </div>
+
+          <div class="formPassword">
+            <label for="password">Senha</label>
+            <input id="password"
+              type="password"
+              placeholder="Digite sua senha"
+              form="formPasswordInput"
+            />
+          </div>
+
+          <div class="formCheckbox">
+          <div>
+            <input type="checkbox" /> 
+            <label for="checkbox">Lembre-me</label>
+          </div>
+            <a href="#">Esqueci minha senha</a>
+          </div>
+
+          <button type="submit">ENTRAR</button>
+          <span class="subscrive">
+            <a href="#">Não tem uma conta?  <strong> Registra-se </strong></a>
+          </span>
+
+          <!-- FORMULÁRIO -->
+          <form id="formPasswordInput" action="" method=""></form>
+
+          <form
+            id="formEmailInput"
+            action=""
+            method=""
+            placeholder="Digite sua senha"
+          ></form>
+
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
